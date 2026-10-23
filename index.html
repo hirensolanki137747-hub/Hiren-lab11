@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheMetal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black min-h-screen">
+
+    <header class="bg-gray-900 text-white">
+        <div class="flex justify-between items-center px-8 py-5">
+
+            <h1 class="text-3xl font-bold">
+                The<span class="text-red-500">Metal</span>
+            </h1>
+
+            <nav class="flex items-center gap-6">
+                <a href="#" class="hover:text-red-500">Home</a>
+                <a href="#" class="hover:text-red-500">About</a>
+
+                <div class="relative group">
+                    <button class="hover:text-red-500">
+                        Products ▼
+                    </button>
+
+                    <div class="hidden group-hover:block absolute top-full left-0 mt-2 w-36 bg-gray-900 rounded shadow-lg">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-800">Laptop</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-800">Mobile</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-800">Shoes</a>
+                    </div>
+                </div>
+
+                <a href="#" class="hover:text-red-500">Contact</a>
+
+                <a href="#" class="bg-red-600 px-5 py-2 rounded hover:bg-red-700">
+                    Login
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="text-center mt-24 px-4">
+
+        <h2 class="text-4xl font-bold text-white mb-4">
+            Welcome to MyStore
+        </h2>
+
+        <p class="text-gray-400 text-lg">
+            Discover amazing products at great prices.
+        </p>
+
+        <button class="mt-6 bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700">
+            Explore Products
+        </button>
+
+    </main>
+
+</body>
+</html>
